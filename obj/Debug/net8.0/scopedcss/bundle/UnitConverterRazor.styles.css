@@ -1,37 +1,38 @@
-﻿a.navbar-brand {
+/* _content/UnitConverterRazor/Pages/Shared/_Layout.cshtml.rz.scp.css */
+a.navbar-brand[b-7pp18r2hw6] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
-a {
+a[b-7pp18r2hw6] {
   color: #0077cc;
 }
 
-.btn-primary {
+.btn-primary[b-7pp18r2hw6] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active[b-7pp18r2hw6], .nav-pills .show > .nav-link[b-7pp18r2hw6] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top {
+.border-top[b-7pp18r2hw6] {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom {
+.border-bottom[b-7pp18r2hw6] {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow {
+.box-shadow[b-7pp18r2hw6] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy {
+button.accept-policy[b-7pp18r2hw6] {
   font-size: 1rem;
   line-height: inherit;
 }
