@@ -16,4 +16,4 @@ ENV ASPNETCORE_URLS=http://0.0.0.0:${PORT}
 
 EXPOSE ${PORT}
 
-ENTRYPOINT ["dotnet", "UnitConvertorRazor.dll"]
+ENTRYPOINT ["dotnet", "UnitConverterRazor.dll"]
