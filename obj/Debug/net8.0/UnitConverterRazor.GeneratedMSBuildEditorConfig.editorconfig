@@ -26,6 +26,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVuZ3RoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/yanamakogon/Documents/Back-end_projects/UnitConverterRazor/Pages/Temperature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVtcGVyYXR1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yanamakogon/Documents/Back-end_projects/UnitConverterRazor/Pages/Weight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VpZ2h0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/yanamakogon/Documents/Back-end_projects/UnitConverterRazor/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

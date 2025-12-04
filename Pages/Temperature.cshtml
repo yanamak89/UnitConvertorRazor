@@ -1,8 +1,8 @@
-@page 
-@model UnitConverterRazor.Pages.WeightModel
+@page "/temperature"
+@model UnitConverterRazor.Pages.TemperatureModel
 
 @{
-  ViewData["Title"] = "Weight Converter";
+  ViewData["Title"] = "Temperature Converter";
   var hasResult = Model.HasResult;
 }
 
@@ -95,38 +95,31 @@
 
         <div class="uc-tabs">
             <a asp-page="/Length">Length</a>
-            <a asp-page="/Weight" class="active">Weight</a>
-            <a asp-page="/Temperature">Temperature</a>
+            <a asp-page="/Weight">Weight</a>
+            <a asp-page="/Temperature" class="active">Temperature</a>
         </div>
 
         <form method="post">
             <div class="uc-field">
-                <label>Enter the weidht to convert</label>
+                <label>Enter the temperature to convert</label>
                 <input asp-for="InputValue" type="number" step="any" class="uc-input" required />
             </div>
 
             <div class="uc-field">
                 <label>Unit to convert from</label>
-                <select asp-for="FromUnit" class="uc-select">               
-                    <option value="mg">Milligram (mg)</option>
-                    <option value="g">Gram (g)</option>
-                    <option value="kg">Kilogram (kg)</option>
-                    <option value="km">Kilometer (km)</option>
-                    <option value="oz">Ounce (oz)</option>
-                    <option value="lb">Pound (lb)</option>
-                    
+                <select asp-for="FromUnit" class="uc-select">        
+                    <option value="C">Celsius (°C)</option>
+                    <option value="F">Fahrenheit (°F)</option>
+                    <option value="K">Kelvin (K)</option>            
                 </select>
             </div>
 
             <div class="uc-field">
                 <label>Unit to convert to</label>
                 <select asp-for="ToUnit" class="uc-select">
-                    <option value="mg">Milligram (mg)</option>
-                    <option value="g">Gram (g)</option>
-                    <option value="kg">Kilogram (kg)</option>
-                    <option value="km">Kilometer (km)</option>
-                    <option value="oz">Ounce (oz)</option>
-                    <option value="lb">Pound (lb)</option>
+                    <option value="C">Celsius (°C)</option>
+                    <option value="F">Fahrenheit (°F)</option>
+                    <option value="K">Kelvin (K)</option>
                 </select>
             </div>
 
@@ -140,8 +133,8 @@
 
         <div class="uc-tabs">
             <a asp-page="/Length">Length</a>
-            <a asp-page="/Weight" class="active">Weight</a>
-            <a asp-page="/Temperature">Temperature</a>
+            <a asp-page="/Weight">Weight</a>
+            <a asp-page="/Temperature" class="active">Temperature</a>
         </div>
 
         @if (hasResult)
