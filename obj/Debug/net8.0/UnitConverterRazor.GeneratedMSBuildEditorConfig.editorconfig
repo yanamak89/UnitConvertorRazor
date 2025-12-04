@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/yanamakogon/Documents/Back-end_projects/UnitConverterRazor/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/yanamakogon/Documents/Back-end_projects/UnitConverterRazor/Pages/Length.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVuZ3RoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

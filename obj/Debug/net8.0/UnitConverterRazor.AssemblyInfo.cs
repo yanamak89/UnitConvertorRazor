@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnitConverterRazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f08c49f3914bebf879f10dbc71dc08cd6934256")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaf5657d6849b1bbb486878e9d138b5b093970e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnitConverterRazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnitConverterRazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
